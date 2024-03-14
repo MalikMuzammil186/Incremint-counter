@@ -14,7 +14,7 @@ class MyListTile extends ConsumerWidget {
     var width=MediaQuery.of(context).size.width;
 
    return Padding(
-     padding: const EdgeInsets.all(8.0),
+     padding: const EdgeInsets.all(10.0),
      child: SizedBox(
       width: width*0.6,
       height: height*0.4,
